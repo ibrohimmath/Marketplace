@@ -1,4 +1,8 @@
 function Card2() {
-  return <h1>lorem</h1>;
+  return (
+    <div>
+      <h1>lorem</h1>
+    </div>
+  );
 }
 export default Card2;
