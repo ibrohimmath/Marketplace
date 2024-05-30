@@ -1,0 +1,25 @@
+button {
+  background: var(--main-color);
+  border-radius: 12px;
+  font-size: 1rem;
+  border: none;
+  font-size: 1rem;
+  transition: 0.4s;
+  cursor: pointer;
+  &:hover {
+    background: var(--site-background);
+    outline: 2px solid var(--main-color);
+    color: white;
+  }
+}
+.btn {
+  &--primary {
+    padding: 0.8rem 1.8rem;
+  }
+  &--secondary {
+    padding: 0.6rem 1.6rem;
+  }
+  &--tertiary {
+    padding: 0.4rem 1.4rem;
+  }
+}
